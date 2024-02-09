@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@700&display=swap');
+
+*{
+    font-family: 'Markazi Text', serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right,#01022d 30% ,#000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-image:linear-gradient(to right,#01022de5 30%,#0000009b),
+    url('images/film.webp');
+    background-repeat: no-repeat;
+    height: 90%;
+    width: 87%;
+    background-position: center;
+   
+}
+
+.container:hover{
+    background-image:linear-gradient(to right,#01022de5 30%,transparent),
+    url('images/film.webp');
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+}
+
+#header ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+   font-size: 20px;
+   padding-top: 0px;
+
+}
+a{
+    color: white;
+    text-decoration: transparent;
+
+}
+
+#logo{
+    font-size: 35px;
+    text-transform: uppercase;
+    width: 40%;
+}
+
+#header ul li a:hover{
+    border-bottom: 2px solid white;
+
+}
+
+
+.content{
+    display: block;
+   width:30%;
+   height: 60%;
+   margin-top:50px;
+   text-align: center;
+   padding: 30px;
+   color: white;
+}
+
+.content h2{
+    font-size: 100px;
+    text-transform: uppercase;
+
+}
+
+.content p{
+    letter-spacing: 2px;
+    width: 350px;
+    padding: 2px 0px;
+
+}
+
+.content button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border:2px solid transparent ;
+
+}
+
+.content button:hover{
+
+    border:2px solid white ;
+    background-color: transparent;
+    color: white;
+
+}
+
+
